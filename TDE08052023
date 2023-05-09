@@ -1,0 +1,50 @@
+//Exercício 1
+function num(){
+    for(let i=0;i<=100;i++){
+        if(i%2===0){
+            console.log(i)
+        }
+    }
+}
+
+num()
+
+//Exercício 2
+function array(){
+let numArray = [2,4,6,8]
+let soma=0
+
+for(let i=0;i<numArray.length;i++){
+    soma=soma+numArray[i]
+    }
+    console.log(soma)
+}
+
+array()
+
+//Exercício 3
+function removeNeg(){
+let num = [-1, 1, -2, 2, -3, 3]
+
+for(let i=0;i<num.length;i++){
+    if(num[i]>=0){
+        console.log(num[i])
+    }
+    }
+}
+
+removeNeg()
+
+//Exercicio 4
+function multi(){
+let numeros = [1,2,3,4,5]
+let multi=0
+
+for(let i=0;i<numeros.length;i++){
+    multi=numeros[i]*2
+    console.log(multi)
+    }
+}
+
+multi()
+
